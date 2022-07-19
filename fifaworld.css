@@ -1,3 +1,31 @@
-.jjj{
-    border: 10px solid teal;
-  }
+
+
+/* 1st part ( top) */
+
+.blog h1{
+    color: rgb(205, 16, 16);
+    font-size: 50px;
+}
+.blog p{
+    color: rgb(79, 5, 5);
+    
+}
+
+.blog{
+    display: flex;
+    
+}
+.info{
+    width: 50%;
+}
+.banner-top{
+    width: 50%;
+}
+.blog .banner-top img{
+    width: 350px;
+}
+.info a{
+    text-decoration: none;
+    background-color: darkorange;
+    height: 100px;
+}
