@@ -122,13 +122,14 @@ main {
      
 
     }
-.container2{
-    display: flex;
-    margin-top: 100px;
-    justify-content: center;
+    .container2{
+        display: flex;
+        margin-top: 100px;
+       
+        
     
-
-}
+    }
+    
 .blog-pic img{
     width: 280px;
 }
@@ -157,7 +158,7 @@ main {
     margin-left: 20px;
 }
 
-/* footer part */
+/* =================== footer part =============================*/
 
 footer{
     width: 100%;
@@ -184,7 +185,41 @@ footer .footer-01{
     justify-content: space-evenly;
     margin-top: 25px;
     
-   
-    
+}
 
+/*=================== Media Querys ========== */
+
+/* --------------------for mobile devices------------- */
+
+@media only screen and ( max-width:688px) {
+
+    .container{
+        width: 100%;
+    }
+    .blog{
+        grid-template-columns: repeat(1,1fr);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+   .red-button{
+    display: flex;
+    justify-content: center;
+
+   }
+.banner-top{
+    width: 100%;
+    display: flex;
+}
+
+.container3{
+    display: flex;
+    grid-template-columns: repeat(1,1fr);
+
+    flex-direction: column;
+   
+    width: 100%;
+}
 }
