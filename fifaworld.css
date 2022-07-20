@@ -1,16 +1,16 @@
 body{
     font-family: 'Bebas Neue', cursive;
-    background-color: aliceblue;
+    background-color: white;
 }
 
 /* 1st part ( top) */
 
 .blog h1{
-    color: rgb(205, 16, 16);
-    font-size: 50px;
+    color: white;
+    font-size: 70px;
 }
 .blog p{
-    color: rgb(79, 5, 5);
+    color: white;
     
 }
 main{
@@ -20,7 +20,7 @@ main{
     
 }
 .container{
-    background-color: white;
+    background-color: black;
     width: 1100px;
     border-radius: 20px;
     
@@ -28,16 +28,32 @@ main{
 .blog{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+
+}
+.header{
+    margin-left: 50px;
 }
 .blog .banner-top img{
-    width: 350px;
+    width: 455px;
 }
-.info a{
-    text-decoration: none;
-    background-color: darkorange;
-    padding: 15px; 
-    border-radius: 10px;
-}
+
 .info p{
     margin-bottom: 40px;
+    
 }
+.fa-angles-right.icon{
+    color: white;
+    margin-left: 15px;
+}
+.watch{
+    display: flex;
+    align-items: baseline;
+    background-color: rgb(228, 6, 6);
+    border-radius: 5px;
+    width: 130px;
+    height: 50px; 
+}
+    #button{
+        margin-left: 15px;
+    }
