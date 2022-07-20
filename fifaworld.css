@@ -24,7 +24,7 @@ main {
 .container 
      {
     background-color: black;
-    width: 1100px;
+    width: 1150px;
     border-radius: 20px;
     margin-top: 10px;
     
@@ -48,18 +48,18 @@ main {
 }
 .fa-angles-right.icon{
     color: white;
-    margin-left: 15px;
+    margin-left: 25px;
 }
 .watch{
     display: flex;
     align-items: baseline;
     background-color: rgb(228, 6, 6);
     border-radius: 5px;
-    width: 130px;
+    width: 150px;
     height: 50px; 
 }
     #button{
-        margin-left: 15px;
+        margin-left: 25px;
         
 
     }
@@ -70,7 +70,7 @@ main {
         flex-direction: column;
         border-radius: 10px;
         background-color: black;
-        width: 200px;
+        width: 230px;
         padding: 20px;
         margin-right: 20px;
         margin-left: 20px;
@@ -132,6 +132,10 @@ main {
 }
 .blog-info{
     border: 1px solid rgba(128, 128, 128, 0.371);
-    border-radius: 11px;
+    border-radius: 12px;
 }
- 
+.bottom-i{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 100px;
+}
