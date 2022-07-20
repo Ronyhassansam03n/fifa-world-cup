@@ -73,8 +73,8 @@ main {
         background-color: black;
         width: 230px;
         padding: 20px;
-        margin-right: 20px;
-        margin-left: 20px;
+        margin-right: 50px;
+        
         
      }
 
@@ -111,7 +111,7 @@ main {
     
 
     /* 2nd part ( middle half) */
-
+    
     .container3{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -119,45 +119,49 @@ main {
         row-gap: 10px;
         margin-right: 10px;
         margin-bottom: 150px;
-     
-
+        row-gap: 15px;
+        column-gap: 25px;
     }
-.container2{
-    display: flex;
-    margin-top: 100px;
-    justify-content: center;
+    .container2{
+        display: flex;
+        margin-top: 100px;
+        justify-content: center;
+        
     
+    }
+/* ========================= container 03 ========================= */
+   
+.blog-pic img{
+    width: 90px;
+    margin: 15px;
+    margin-top: 35px;
 
 }
-.blog-pic img{
-    width: 280px;
+.blog-pic{
+    display: flex;
+    align-items: center;
+
+    
 }
 .blog-info{
     border: 1px solid rgba(128, 128, 128, 0.371);
     border-radius: 12px;
 }
-.bottom-i{
-    display: flex;
-    justify-content: space-around;
-    margin-right: 100px;
-}
-.button-area{
-    border: 1px solid rgba(23, 13, 13, 0.533);
-    border-radius: 10px;
-    text-align: center;
-    width: 80px;
-    height: 45px;
-    margin-left: 20px;
-    
-    
-    
-}
+
+
 .blog-des{
-    width: 250px;
-    margin-left: 20px;
+    text-align: center;
+    font: 200;
+}
+.blog-des p{
+    color:rgb(228, 6, 6);
 }
 
-/* footer part */
+
+
+
+
+/* ============================== footer part ========================= */
 
 footer{
     width: 100%;
