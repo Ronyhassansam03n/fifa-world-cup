@@ -193,33 +193,5 @@ footer .footer-01{
 
 @media only screen and ( max-width:688px) {
 
-    .container{
-        width: 100%;
-    }
-    .blog{
-        grid-template-columns: repeat(1,1fr);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
 
-    }
-   .red-button{
-    display: flex;
-    justify-content: center;
-
-   }
-.banner-top{
-    width: 100%;
-    display: flex;
-}
-
-.container3{
-    display: flex;
-    grid-template-columns: repeat(1,1fr);
-
-    flex-direction: column;
-   
-    width: 100%;
-}
 }
