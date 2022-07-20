@@ -213,11 +213,11 @@ footer .footer-01{
 
 }
 .mother{
-    margin-left: 25px;
+   margin-right: 8px;
     margin-bottom: 30px;
 }
-.banner-top{
-    width: 350px;
+.blog .banner-top img{
+    width: 75%;
 }
 .red-button{
     display: flex;

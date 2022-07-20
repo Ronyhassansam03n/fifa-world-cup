@@ -223,6 +223,9 @@ footer .footer-01{
 .banner-top{
     width: 350px;
 }
+.blog .banner-top img{
+    width: 75%;
+}
 .red-button{
     display: flex;
     justify-content: center;
