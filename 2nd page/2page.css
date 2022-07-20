@@ -1,0 +1,190 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    background-color: white;
+    margin: 0%;
+}
+
+/* 1st part ( top) */
+
+.blog h1{
+    color: white;
+    font-size: 70px;
+}
+.blog p{
+    color: white;
+    
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+   
+    
+}
+.container 
+     {
+    background-color: black;
+    width: 1150px;
+    border-radius: 20px;
+    margin-top: 10px;
+    
+}
+.blog{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+
+}
+.header{
+    margin-left: 50px;
+}
+.blog .banner-top img{
+    width: 455px;
+}
+
+.info p{
+    margin-bottom: 40px;
+    
+}
+.fa-angles-right.icon{
+    color: white;
+    margin-left: 25px;
+}
+.watch{
+    display: flex;
+    align-items: baseline;
+    background-color: rgb(228, 6, 6);
+    border-radius: 5px;
+    width: 150px;
+    height: 50px; 
+}
+    #button{
+        margin-left: 25px;
+        
+
+    }
+    /* 2nd part Middle */
+
+    .item-box{
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        background-color: black;
+        width: 230px;
+        padding: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+        
+     }
+
+
+  .item-box .item1{
+  
+    border-radius: 10px;
+    margin: 10px;
+    color: rgb(250, 245, 245);
+    text-align: center;
+    background-color:  rgb(228, 6, 6);
+ }
+    
+  .item-box .item2{
+    
+    border-radius: 10px;
+    margin: 10px;
+    color: black;
+    text-align: center;
+    background-color: white;
+    
+
+ }
+    
+  .item-box .item3{
+   
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    text-align: center;
+ }
+ 
+    
+
+    /* 2nd part ( middle half) */
+
+    .container3{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap:  8px;
+        row-gap: 10px;
+        margin-right: 10px;
+        margin-bottom: 150px;
+     
+
+    }
+.container2{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    
+
+}
+.blog-pic img{
+    width: 280px;
+}
+.blog-info{
+    border: 1px solid rgba(128, 128, 128, 0.371);
+    border-radius: 12px;
+}
+.bottom-i{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 100px;
+}
+.button-area{
+    border: 1px solid rgba(23, 13, 13, 0.533);
+    border-radius: 10px;
+    text-align: center;
+    width: 80px;
+    height: 45px;
+    margin-left: 20px;
+    
+    
+    
+}
+.blog-des{
+    width: 250px;
+    margin-left: 20px;
+}
+
+/* footer part */
+
+footer{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.908);
+    text-align: center;
+    height: 300px;
+}
+footer h1{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+footer hr{
+    width: 85%;
+    border: 0.5px solid red;
+
+  
+}
+footer .footer-01{
+    color: white;
+}
+.footer-01{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    
+   
+    
+
+}
