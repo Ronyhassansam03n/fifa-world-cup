@@ -166,6 +166,20 @@ main {
     margin-left: 20px;
 }
 
+.hidden-button{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+    background-color : tomato;
+    border-radius: 10px;
+    align-items: center;
+    
+    text-align: center;
+    width: 10%;
+    margin-bottom: 80px;
+    display: none;
+}
+
 /* =================== footer part =============================*/
 
 footer{
@@ -263,5 +277,9 @@ footer .footer-01{
     .mother{
         margin-right: 8px;
          margin-bottom: 30px;
+     }
+
+     .hidden-button{
+        display: block;
      }
 }
